@@ -1,89 +1,79 @@
-# 04 Web APIs: Code Quiz
+# Code Quiz
 
-## Your Task
+## Description 
 
-At some point in your journey to become a full-stack web developer, you’ll likely be asked to complete a coding assessment&mdash;perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges. 
+The purpose of the project is to create a timed coding quiz with multiple-choice questions. This app runs in the browser and features dynamically updated HTML and CSS powered by JavaScript code. 
 
-To help familiarize you with these tests and allow you to use the skills covered in this unit, this week’s homework invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface. 
+https://savannahf.github.io/CodeQuiz
 
-This week’s coursework will equip you with all the skills you need to succeed in this assignment.
+Screen Shots can be found below:
 
-## User Story
+<!-- INSERT FINAL SCREENSHOTS HERE -->
+[After button click, opening alert for character count][./Assets/IMG_COUNT.jpg]
+[A character type option: uppercase][./Assets/IMG_UPPER.jpg]
+[An example of a generated password][./Assets/IMG_RESULT.jpg]
 
-```
-AS A coding boot camp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
-```
+## Installation
+1. Download or clone repository
+2. Open the main page (index.html) on your browser to view webpage
+3. Use a text editor to view all coding, Visual Studio Coding is recommended.
 
-## Acceptance Criteria
+*or*
 
-```
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and my score
-```
+Visit the github-hosted webpage for the user experience. 
+   
 
-## Mock-Up
+## Instructions
+1. Click "Start Quiz"
+   * Timer on the top right will start to run
+   * Total time is 150 second with 12 questions in total
+   * The "View High Scores" link on the top left will direct the user to view all current high scores
 
-The following animation demonstrates the application functionality:
 
-![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/04-web-apis-homework-demo.gif)
+2. A series of questions are presented with multiple choice answers
+   * If the question is answered wrong, 10 seconds will be deducted from the timer.
+   * If the question is answered correctly, 1 is added to the score.
+   * After a question is answered, whether or not it is answered correctly or not will be displayed to the webpage. If wrong, the correct answer will also be shown. 
+  
+3. When either all questions are answered or the timer reaches 0, then the game is over.
+   
+4. When game is over, the user can enter their initials and score, click "Submit" to save to high scores to local storage.
+   
+5. Then a list of saved high scores is shown.
+   
+6. The user then will have the option to click on "Go Back" to start quiz again, or "Clear High Scores" to clear saved scores.
 
-## Grading Requirements
+## Features
+* HTML
+* CSS
+* JavaScript
+* Bootstrap
 
-This homework is graded based on the following criteria: 
+## Websites
+* Github: https://github.com/SavannahF/CodeQuiz
+* Deployed: https://SavannahF.github.io/CodeQuiz/
 
-### Technical Acceptance Criteria: 40%
+## License
+MIT
 
-* Satisfies all of the preceding acceptance criteria.
+Copyright (c) [2021] [Savannah L. Fortson]
 
-### Deployment: 32%
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-* Application deployed at live URL.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-* Application loads with no errors.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-* Application GitHub URL submitted.
 
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the homework instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
----
-
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
