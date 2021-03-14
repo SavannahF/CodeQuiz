@@ -9,9 +9,10 @@ https://savannahf.github.io/CodeQuiz
 Screen Shots can be found below:
 
 <!-- INSERT FINAL SCREENSHOTS HERE -->
-[After button click, opening alert for character count][./assets/IMG_COUNT.jpg]
-[A character type option: uppercase][./assets/IMG_UPPER.jpg]
-[An example of a generated password][./assets/IMG_RESULT.jpg]
+[Landing Page][./assets/IMG_LANDING.png]
+[A Question][./assets/IMG_QUESTION1.png]
+[Another Question][./assets/IMG_QUESTION2.png]
+[High Score Page][./assets/IMG_HIGHSCORE.png]
 
 ## Installation
 1. Download or clone repository
