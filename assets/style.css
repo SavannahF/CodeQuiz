@@ -3,7 +3,7 @@ body {
 }
 
 h1, 
-h2 {
+h2,{
     color:#3290A6;
     font-family: 'Montserrat', sans-serif;
 }
@@ -29,12 +29,9 @@ a:hover {
     font-weight: bold;
 }
 
-/* span {
-    /* font-family: 'FUN', sans-serif; */
-
-/* 
+/* span, 
 p {
-    /* font-family: 'FUN', sans-serif; */
+    font-family: 'FUN', sans-serif; */
 
 #questionTitle {
     font-size: 20px;
