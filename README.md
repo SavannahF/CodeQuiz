@@ -5,6 +5,7 @@
 The purpose of the project is to create a timed coding quiz with multiple-choice questions. This app runs in the browser and features dynamically updated HTML and CSS powered by JavaScript code. 
 
 https://savannahf.github.io/CodeQuiz
+https://SavannahF.github.io/CodeQuiz/
 
 Screen Shots can be found below:
 
