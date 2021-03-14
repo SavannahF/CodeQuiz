@@ -26,8 +26,8 @@ Visit the github-hosted webpage for the user experience.
 ## Instructions
 1. Click "Start Quiz"
    * Timer on the top right will start to run
-   * Total time is 150 second with 12 questions in total
-   * The "View High Scores" link on the top left will direct the user to view all current high scores
+   * Total time is 150 second with 5 questions in total
+   * The "HIGH SCORES" link on the top left will direct the user to view all current high scores
 
 
 2. A series of questions are presented with multiple choice answers
@@ -37,11 +37,11 @@ Visit the github-hosted webpage for the user experience.
   
 3. When either all questions are answered or the timer reaches 0, then the game is over.
    
-4. When game is over, the user can enter their initials and score, click "Submit" to save to high scores to local storage.
+4. When game is over, the user can enter their initials and score, click "SUBMIT" to save to high scores to local storage.
    
 5. Then a list of saved high scores is shown.
    
-6. The user then will have the option to click on "Go Back" to start quiz again, or "Clear High Scores" to clear saved scores.
+6. The user then will have the option to click on "GO BACK" to start quiz again, or "CLEAR High Scores" to clear saved scores.
 
 ## Features
 * HTML
