@@ -26,7 +26,7 @@ Visit the github-hosted webpage for the user experience.
 ## Instructions
 1. Click "Start Quiz"
    * Timer on the top right will start to run
-   * Total time is 150 second with 5 questions in total
+   * Total time is 120 second with 5 questions in total
    * The "HIGH SCORES" link on the top left will direct the user to view all current high scores
 
 
