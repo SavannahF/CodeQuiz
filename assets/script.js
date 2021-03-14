@@ -273,7 +273,7 @@ clearHighScoreBtn.addEventListener("click", function () {
   window.localStorage.removeItem("high scores");
   listOfHighScores.innerHTML = "Clean Slate!";
   listOfHighScores.setAttribute(
-    "style"
-    // "font-family: 'FUN', sans-serif; font-style: italic;"
+    "style",
+    "font-family: 'Noto Sans JP', sans-serif; font-style: italic;"
   );
 });

@@ -3,19 +3,19 @@ body {
 }
 
 h1, 
-h2,{
-    color:#3290A6;
+h2 {
+    color: #3290A6;
     font-family: 'Montserrat', sans-serif;
 }
 
 a {
     color: #3290A6;
-    /* font-family: 'FUN', sans-serif; */
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 a:hover {
     color: #1a3135;
-    /* font-family: 'FUN', sans-serif; */
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .btn:focus, .btn:active, .btn:visited {
@@ -29,9 +29,10 @@ a:hover {
     font-weight: bold;
 }
 
-/* span, 
+span, 
 p {
-    font-family: 'FUN', sans-serif; */
+    font-family: 'Noto Sans JP', sans-serif;
+}
 
 #questionTitle {
     font-size: 20px;
