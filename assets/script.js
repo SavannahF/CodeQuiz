@@ -1,52 +1,56 @@
 // QUESTION Set
 const questions = [
-    {
-      //   "First"
-      question: "Inside which HTML element do we put the JavaScript?",
-      choices: ["a. <js>", "b. <javascript>", "c. <scripting>", "d. <script>"],
-      answer: "d. <script>",
-    },
-    {
-      //   "Second"
-      question: "Arrays in JavaScript can be used to store _____.",
-      choices: [
-        "a. numbers and strings",
-        "b. other arrays",
-        "c. booleans",
-        "d. all of the above",
-      ],
-      answer: "b. other arrays",
-    },
-    {
-      //   "Third"
-      question: "Commonly used data types DO NOT include:",
-      choices: ["a. strings", "b. booleans", "c. alerts", "d. numbers"],
-      answer: "c. alerts",
-    },
-    {
-      //   "Fourth"
-      question: "How do you create a function in JavaScript",
-      choices: [
-        "a. function = myFunction()",
-        "b. function myFunction()",
-        "c. function:myFunction()",
-        "d. createMyFunction()",
-      ],
-      answer: "b. function myFunction()",
-    },
-    {
-      //   "Fifth"
-      question: "How do you call a function named myFunction?",
-      choices: [
-        "a. call myFunction()",
-        "b. call function myFunction()",
-        "c. myFunction()",
-        "d. call myFunction",
-      ],
-      answer: "c. myFunctions()",
-    },
-  ];
-
-
-
-  
+  {
+    //   "First"
+    question: "Which ones of these is NOT a falsy value?",
+    choices: [
+        "a. NaN", 
+        "b. ''", 
+        "c. 1", 
+        "d. 0"],
+    answer: "c. 1",
+  },
+  {
+    //   "Second"
+    question: "Which tag is used at the end of the <body> to link the JavaScript file?",
+    choices: [
+      "a. <script>"
+      "b. <link>",
+      "c. <a>",
+      "d. <html>",
+    ],
+    answer: "a. <script",
+  },
+  {
+    //   "Third"
+    question: "Event ________ are functions that wait for an event (ie. interactions, resizing, scrolling, etc) to occur before executing ",
+    choices: [
+        "a. occurrances", 
+        "b. booleans", 
+        "c. listeners", 
+        "d. strings"],
+    answer: "c. listeners",
+  },
+  {
+    //   "Fourth"
+    question: "Java : JavaScript :: Car : _______",
+    choices: [
+      "a. function",
+      "b. autoMobile",
+      "c. Mocha",
+      "d. Carpet",
+    ],
+    answer: "d. Carpet",
+  },
+  {
+    //   "Fifth"
+    question: "Which is these statements, given by w3schools.com, is more a matter of opinion?",
+    choices: [
+      "a. JavaScript is the world's most popular programming language.",
+      "b. JavaScript is the programming language of the Web.",
+      "c. JavaScript is easy to learn.",
+      "d. This tutorial will teach you JavaScript from basic to advanced.",
+    ],
+    answer: "c. JavaScript is easy to learn.",
+  },
+];
